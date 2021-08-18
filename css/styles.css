@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -78,6 +80,12 @@ body {
 .profile-container .profile-information .stastics .item h2 {
   font-size: 1.125rem;
   margin-bottom: 10px;
+  padding-top: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.profile-container .profile-information .stastics .item h2:hover {
+  color: #19a2ae;
 }
 .profile-container .profile-information .stastics .item h3 {
   font-size: 0.7rem;
