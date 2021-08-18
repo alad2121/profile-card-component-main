@@ -16,11 +16,10 @@ gsap.from(".name-age",1,{
 
 for(let a = 0; a < items_numbers.length; a++){
     items_numbers[a].animation =  gsap.from(items_numbers[a],{
-        ease: "Power2.easeOut",
         duration: 0.5,
         y:100
     });
     items_text[a].animation = gsap.from(items_text[a],0.8,{
         y:100
-    });
+    },"-=0.1");
 }
