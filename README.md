@@ -25,7 +25,7 @@
 
 ## Layout
   ### Desktop-Layout
-  ![](./design/desktop-layout.png)
+  ![](./design/desktop-layout.jpg)
   
 ## Website link
   Live Site URL : [Live Site](https://alad2121.github.io/3-column-preview-card-component-main/)
