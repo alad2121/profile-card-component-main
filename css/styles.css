@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-position: right 50vw bottom 45vh, 50vw 50vh;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.main-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+
+.profile-container {
+  margin: auto auto;
+  text-align: center;
+  position: relative;
+}
+.profile-container svg {
+  border-radius: 10px 10px 0px 0px;
+  display: block;
+}
+.profile-container .profile-information {
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.profile-container .profile-information .profile-top .profile-pic {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.profile-container .profile-information .profile-top .profile-pic img {
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: white;
+  border-spacing: 0px;
+  height: auto;
+  vertical-align: middle;
+}
+.profile-container .profile-information .profile-top .name-age {
+  padding-top: 80px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.profile-container .profile-information .profile-top .name-age h2 {
+  font-weight: 800;
+}
+.profile-container .profile-information .profile-top .name-age span {
+  margin-left: 10px;
+  color: #969696;
+  font-weight: 400;
+}
+.profile-container .profile-information .profile-top .location {
+  margin-bottom: 30px;
+}
+.profile-container .profile-information .profile-top .location h3 {
+  color: #969696;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+.profile-container .profile-information .stastics {
+  display: flex;
+  justify-content: center;
+}
+.profile-container .profile-information .stastics .item {
+  padding: 7% 7%;
+}
+.profile-container .profile-information .stastics .item h2 {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+.profile-container .profile-information .stastics .item h3 {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: #969696;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=styles.css.map */
